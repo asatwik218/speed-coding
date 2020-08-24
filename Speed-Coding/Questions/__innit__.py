@@ -39,7 +39,7 @@ class testquestions(unittest.TestCase):
             if r%i == 0:
                 f1=1
                 break
-        if(f1==0 and f2==0):
+        if(f==0 and f1==0):
             return 1
         else:
             return 0
